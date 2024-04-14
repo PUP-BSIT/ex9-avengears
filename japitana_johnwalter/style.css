@@ -1,5 +1,98 @@
+/*big*/
+@media (min-width: 425px) {
+    .container{
+        display: grid;
+        grid-template-areas: 
+            "itm1 itm2"
+            "itm3 itm4"
+            "itm5 itm5"
+            "itm6 itm6"
+            "itm7 itm7";
+    }
+
+}
+
+/*small*/
+@media (max-width: 425px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+}
+
+form {
+    border: 1px solid black;
+}
+
+.item1 {
+    grid-area: itm1;
+}
+
+.item2 {
+    grid-area: itm2; 
+}
+
+.item3{
+    grid-area: itm3; 
+}
+
+.item4{
+    grid-area: itm4; 
+}
+
+.item5 {
+    grid-area: itm5;
+    margin-left: 5px;
+}
+
+.item6 {
+    grid-area: itm6;
+    margin-left: 5px;
+    padding:3px;
+}
+
+.item6 > textarea{
+    width: 99%;
+    height: 20em;
+}
+
+.item7 {
+    grid-area: itm7;
+    width: 100%;
+    border: 0;
+    background-color: white;
+}
+
+.item7 > button{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.item1, .item2, .item3, .item4 {
+    border: 1px solid black;
+    padding: 20px; 
+}
+
+@font-face {
+    font-family: "ProggySquareTT";
+    src: url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.eot");
+    src: url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.svg#ProggySquareTT")format("svg");
+}
+
 * {    
-    font-family: "Sansation";
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #EEEEEE;
 }
 
@@ -17,7 +110,7 @@ img {
     border-radius: 8px;
 }
 
-div {
+.Ex7 > div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +123,7 @@ div {
 h2 {
     color: #00adb5;
     text-align: center;
+    text-decoration-line: underline;
 }
 
 .class-1 {
@@ -51,12 +145,11 @@ h2 {
     width: 250px;
 }
 
-.class-3 {
-    display: inline;
-    background-color: #393e46;
-    margin-bottom: 1rem;
-    justify-items: center;
+.Ex7 .class-3 {
     display: grid;
+    background-color: #393e46;
+    border: 2px solid #00adb5;
+    margin-bottom: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
     justify-items: center;
@@ -119,4 +212,8 @@ li.dropdown {
 
 img:hover{
     opacity: 1;
+}
+
+.Ex8 div{
+    border: 1px solid #00adb5;
 }
