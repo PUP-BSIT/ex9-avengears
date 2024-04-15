@@ -1,0 +1,114 @@
+body{
+    background-color: #45474b;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5f7f8;
+}
+
+img {
+    width: 200px;
+    height: 160px;
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.class-1 {
+    background-image: url("media/d-day.jpg");
+    text-align: center;
+    line-height: 90px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 25px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.class-2 {
+    background-color: #f4ce14;
+    border: 2px solid #495e57;
+    width: 250px;
+}
+
+.class-3 {
+    display: inline;
+    background-color: #f4ce14;
+    margin-bottom: 1rem;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+.ulclass {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4ce14;
+}
+
+.li-class {
+    float: left;
+}
+
+.li-class a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li-class a:hover, .dropdown:hover .dropbtn {
+    background-color: #495e57;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f7f8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px;
+}
+
+.dropdown-content a {
+    color: #495e57;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4ce14;
+    border-radius: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
