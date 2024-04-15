@@ -3,6 +3,8 @@
     <head>
         <title>Santos Akisha Gelsey Page</title>
         <link href="style.css"rel="stylesheet"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <ul class="ul-class">
@@ -62,39 +64,37 @@
             <img src="media/image5.png"/>
             <img src="media/image6.png"/>
         </div>
-        <div class="Ex8">
+        <form class="container">
             <h2>Contact Me</h2>
-            <form class="container">
-                <div class="item1">
-                    <label>Email</label>
-                    <input type="text">
-                </div>
-                <div class="item2">
-                    <label>Full Name</label> 
-                    <input type="text">
-                </div>
-                <div class="item3">
-                    <label>Age</label> 
-                    <input type="text">
-                </div>
-                <div class="item4">
-                    <label>Subject</label> 
-                    <input type="text">
-                </div>
-  
-                <div class="item5">
-                    <label>Send me a copy</label>
-                    <input type="checkbox">
-                </div>
-                
-                <div class="item6">
-                    <label>Message</label><br>
-                    <textarea></textarea>
-                </div>
-                <div class="item7">                    
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
-        </div>
+            <div class="upper">
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email"/>
+              </div>
+              <div>
+                <label for="fullname">Fullname</label>
+                <input type="text" name="fullname"/>
+              </div>
+              <div>
+                <label for="age">Age</label>
+                <input type="number" name="age"/>
+              </div>
+              <div>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject"/>
+              </div>
+            </div>
+            <div class="checkbox-container">
+              <label for="sendme">Send me a copy</label>
+              <input type="checkbox" name="sendme"/>
+            </div>
+            <div class="message-container">
+              <label for="message">Message</label>
+              <textarea name="message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="submit-container">
+              <input type="submit"/>
+            </div>
+          </form>
     </body>
 </html>
