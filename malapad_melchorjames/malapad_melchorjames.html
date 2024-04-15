@@ -3,6 +3,7 @@
     <head> 
         <title>Malapad Melchor James Page</title>
         <link href="style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
         <ul class="ulclass">
@@ -50,7 +51,7 @@
             <ul>
                 <li>amazing work -walter</li>
                 <li>great job as always -akish</li>
-                <li>youre the best -jasmin</li>
+                <li>youre the best -jasmin<s/li>
             </ul>
         </div>
         <div class=class-3>
@@ -62,5 +63,38 @@
             <img src="media/picture_4.png"/>
             <img src="media/picture_5.png"/>
         </div>
+    <div>
+      <form class="container">
+        <div class="upper">
+         <h2>Contact Me</h2>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label for="fullname">Fullname</label>
+            <input type="text" name="fullname" />
+          </div>
+          <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" />
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" />
+          </div>
+        </div>
+        <div class="checkbox-container">
+          <label for="sendme">Send me a copy</label>
+          <input type="checkbox" name="sendme" />
+        </div>
+        <div class="message-container">
+          <label for="message">Message</label>
+          <textarea name="message" cols="30" rows="10"></textarea>
+        </div>
+        <div class="submit-container">
+          <input type="submit"/>
+        </div>
+      </form>
     </body>
 </html>

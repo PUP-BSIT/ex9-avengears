@@ -1,7 +1,7 @@
 body{
-    background-color: #45474b;
+    background-color: #2C7865;
     font-family: 'Courier New', Courier, monospace;
-    color: #f5f7f8;
+    color: #1fe011;
 }
 
 img {
@@ -42,19 +42,19 @@ h2 {
 }
 
 .class-2 {
-    background-color: #f4ce14;
+    background-color: #90D26D;
     border: 2px solid #495e57;
     width: 250px;
 }
 
 .class-3 {
-    display: inline;
-    background-color: #f4ce14;
+    display: center;
+    background-color: #90D26D;
     margin-bottom: 1rem;
     justify-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr 1fr 1fr));
+    gap: 50px;
     justify-items: center;
 }
 
@@ -63,7 +63,7 @@ h2 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f4ce14;
+    background-color: #90D26D;
 }
 
 .li-class {
@@ -111,4 +111,43 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+div {
+    border: 1px solid rgb(255, 201, 201);
+}
+
+@media (max-width: 426px) {
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 426px) {
+  .upper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
 }
