@@ -87,7 +87,7 @@ h2 {
     width: 250px;
 }
 
-.Gallery {
+.gallery {
     display: inline; 
     background-color: rgb(209, 187, 158);
     margin-bottom: 1rem;
@@ -98,7 +98,7 @@ h2 {
     justify-items: center;
 }
 
-.ulclass {
+.ul-class {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -110,7 +110,7 @@ h2 {
     float: left;
 }
 
-.li-class a, .dropbtn {
+.li-class a, .drop-btn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -118,7 +118,7 @@ h2 {
     text-decoration: none;
 }
 
-.li-class a:hover, .dropdown:hover .dropbtn {
+.li-class a:hover, .dropdown:hover .drop-btn {
     background-color: #e2c799;
 }
 

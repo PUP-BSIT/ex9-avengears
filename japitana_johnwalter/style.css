@@ -1,5 +1,5 @@
 /*big*/
-@media (min-width: 425px) {
+@media (min-width: 426px) {
     .container{
         display: grid;
         grid-template-areas: 
@@ -13,7 +13,7 @@
 }
 
 /*small*/
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -158,7 +158,7 @@ h2 {
     justify-items: center;
 }
 
-.ulclass {
+.ul-class {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -170,7 +170,7 @@ h2 {
     float: left;
 }
 
-.li-class a, .dropbtn {
+.li-class a, .drop-btn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -178,7 +178,7 @@ h2 {
     text-decoration: none;
 }
 
-.li-class a:hover, .dropdown:hover .dropbtn {
+.li-class a:hover, .dropdown:hover .drop-btn {
     background-color: #00adb5;
 }
 
