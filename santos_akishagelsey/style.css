@@ -67,7 +67,7 @@ h2 {
   text-align: center;
 }
 
-.c1 {
+.name  {
   background-image: url("media/image7.png");
   text-align: center;
   line-height: 90px;
@@ -80,13 +80,13 @@ h2 {
   border-top-left-radius: 0px;
 }
 
-.c2 {
+.works {
   background-color: #dbe2ef;
   border: 2px solid #3f72af;
   width: 250px;
 }
 
-.c3 {
+.gallery {
   display: inline;
   background-color: #dbe2ef;
   margin-bottom: 1rem;
