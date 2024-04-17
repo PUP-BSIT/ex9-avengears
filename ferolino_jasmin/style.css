@@ -34,12 +34,13 @@
 }
 
 * {
-  font-family: "Eastman Roman Trial";
-  color: #c08261;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #776B5D;
 }
 
 body {
-  background-color: #9a3b3b;
+    background-color: #EBE3D5;
 }
 
 img {
@@ -62,12 +63,12 @@ div {
 }
 
 h2 {
-  color: rgb(167, 146, 119);
-  text-align: center;
+    color: #776B5D;
+    text-align: center;
 }
 
 .name {
-  background-image: url("https://worldofprintables.com/wp-content/uploads/2023/06/Wavy-Beige-and-Brown-Aesthetic-Background-Wallpapers-650x364.jpg");
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NTItZi0wMTQteC5qcGc.jpg");
   text-align: center;
   line-height: 90px;
   background-size: cover;
@@ -80,9 +81,9 @@ h2 {
 }
 
 .works {
-  background-color: rgb(209, 187, 158);
-  border: 2px solid #e2c799;
-  width: 250px;
+    background-color: rgb(209, 187, 158);
+    border: 2px solid #B0A695;
+    width: 250px;
 }
 
 .gallery {
@@ -99,7 +100,7 @@ h2 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c08261;
+  background-color: #776B5D;
 }
 
 .li-class {
@@ -117,7 +118,7 @@ h2 {
 
 .li-class a:hover,
 .dropdown:hover .drop-btn {
-  background-color: #e2c799;
+  background-color: #B0A695;
 }
 
 li.dropdown {
@@ -135,7 +136,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
-  color: #e2c799;
+  color: #B0A695;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -143,7 +144,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #c08261;
+  background-color: #776B5D;
   border-radius: 25px;
 }
 
