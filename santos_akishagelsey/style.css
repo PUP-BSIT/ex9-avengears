@@ -48,8 +48,11 @@ img {
   opacity: 0.5;
   object-fit: contain;
   max-width: 100%;
-  height: auto;
   border-radius: 8px;
+}
+
+img:hover {
+  opacity: 1;
 }
 
 div {
@@ -87,14 +90,12 @@ h2 {
 }
 
 .gallery {
-  display: inline;
   background-color: #dbe2ef;
   margin-bottom: 1rem;
   justify-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
-  justify-items: center;
 }
 
 .ul-class {
@@ -154,6 +155,3 @@ li.dropdown {
   display: block;
 }
 
-img:hover {
-  opacity: 1;
-}
