@@ -34,13 +34,13 @@
 }
 
 * {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    color: #776B5D;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #776b5d;
 }
 
 body {
-    background-color: #EBE3D5;
+  background-color: #ebe3d5;
 }
 
 img {
@@ -63,8 +63,8 @@ div {
 }
 
 h2 {
-    color: #776B5D;
-    text-align: center;
+  color: #776b5d;
+  text-align: center;
 }
 
 .name {
@@ -81,9 +81,9 @@ h2 {
 }
 
 .works {
-    background-color: rgb(209, 187, 158);
-    border: 2px solid #B0A695;
-    width: 250px;
+  background-color: rgb(209, 187, 158);
+  border: 2px solid #b0a695;
+  width: 250px;
 }
 
 .gallery {
@@ -100,7 +100,7 @@ h2 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #776B5D;
+  background-color: #776b5d;
 }
 
 .li-class {
@@ -118,7 +118,7 @@ h2 {
 
 .li-class a:hover,
 .dropdown:hover .drop-btn {
-  background-color: #B0A695;
+  background-color: #b0a695;
 }
 
 li.dropdown {
@@ -136,7 +136,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
-  color: #B0A695;
+  color: #b0a695;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -144,7 +144,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #776B5D;
+  background-color: #776b5d;
   border-radius: 25px;
 }
 
