@@ -67,7 +67,7 @@ h2 {
   text-align: center;
 }
 
-.name  {
+.name {
   background-image: url("media/image7.png");
   text-align: center;
   line-height: 90px;
@@ -109,7 +109,8 @@ h2 {
   float: left;
 }
 
-.li-class a, .drop-btn {
+.li-class a,
+.drop-btn {
   display: inline-block;
   color: white;
   text-align: center;
