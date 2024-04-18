@@ -48,8 +48,11 @@ img {
   opacity: 0.5;
   object-fit: contain;
   max-width: 100%;
-  height: auto;
   border-radius: 8px;
+}
+
+img:hover {
+  opacity: 1;
 }
 
 div {
@@ -67,7 +70,7 @@ h2 {
   text-align: center;
 }
 
-.c1 {
+.name {
   background-image: url("media/image7.png");
   text-align: center;
   line-height: 90px;
@@ -80,21 +83,19 @@ h2 {
   border-top-left-radius: 0px;
 }
 
-.c2 {
+.works {
   background-color: #dbe2ef;
   border: 2px solid #3f72af;
   width: 250px;
 }
 
-.c3 {
-  display: inline;
+.gallery {
   background-color: #dbe2ef;
   margin-bottom: 1rem;
   justify-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
-  justify-items: center;
 }
 
 .ul-class {
@@ -109,7 +110,8 @@ h2 {
   float: left;
 }
 
-.li-class a, .drop-btn {
+.li-class a,
+.drop-btn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -151,8 +153,4 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-img:hover {
-  opacity: 1;
 }
