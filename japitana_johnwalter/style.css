@@ -47,7 +47,7 @@
   color: #eeeeee;
 }
 
-.Excercise-8 {
+.excercise-8 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +129,7 @@ img:hover {
   opacity: 1;
 }
 
-.Excercise-7 > div {
+.excercise-7 > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,7 +169,7 @@ textarea {
   width: 250px;
 }
 
-.Excercise-7 .gallery {
+.excercise-7 .gallery {
   display: grid;
   background-color: #393e46;
   border: 2px solid #00adb5;
