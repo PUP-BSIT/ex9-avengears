@@ -8,20 +8,12 @@
       "itm6 itm6"
       "itm7 itm7";
   }
-
-  * {
-    font-size: xx-large;
-  }
 }
 
 @media (max-width: 426px) {
   .container {
     display: flex;
     flex-direction: column;
-  }
-
-  * {
-    font-size: large;
   }
 }
 
